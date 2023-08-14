@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "References-and-borrowing"
+name = "references-and-borrowing"
 version = "0.1.0"
