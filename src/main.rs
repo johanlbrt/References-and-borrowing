@@ -1,9 +1,9 @@
 fn main() {
-    let s1 = String::from("Hello!");
-    let len = calc_lenght(&s1);
-    println!("{} = {}",s1,len);
+    let mut s = String::from("hello");
+
+    change(&mut s);
 }
 
-fn calc_lenght(s: &String) -> usize {
-    s.len()
+fn change(some_string: &mut String) {
+    some_string.push_str(", world");
 }
